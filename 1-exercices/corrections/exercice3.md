@@ -52,3 +52,5 @@ Par contre pour le diagramme de classes, il est indispensable que ça soit en an
 ## Global en rassemblant toutes les entités, attributs et méthodes
 
 ![global](./img/class_global.png)
+
+La recherche des produits achetés, la carte utilisée durant la commande ainsi que l'adresse de livraison ne seront pas optimales avec ce modèle. En effet il faut passer par d'autres classes intermédiaires pour accéder à ces informations.
